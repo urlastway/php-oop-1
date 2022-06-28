@@ -23,9 +23,9 @@ $muvies = [
     <main>
         <?php foreach($muvies as $muvie) { ?>
             <div class="container" style="padding: 20px">
-                <h1><?= $movie->title; ?><h1>
-                <p style="font-weight: 300; font-size: 22px"><?= $movie->year; ?><p>
-                <p style="font-weight: 300; font-size: 22px"><?= $movie->gener; ?><p>
+                <h1><?= $muvie->title; ?><h1>
+                <p style="font-weight: 300; font-size: 22px"><?= $muvie->year; ?><p>
+                <p style="font-weight: 300; font-size: 22px"><?= $muvie->gener; ?><p>
                 <p style="font-weight: 300; font-size: 22px"><?= $muvie->duration; ?><p>
             </div>           
         <?php } ?>
